@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syad Khwajazada | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="hero-sprite">
+    <div style="font-size:52px; filter: drop-shadow(0 0 8px #00ffff);">🧑‍💻</div>
+  </div>
+  <div class="pixel-title">SYAD KHWAJAZADA<span class="blink">_</span></div>
+  <div class="pixel-subtitle">SOFTWARE ENGINEER &amp; AI/ML RESEARCHER</div>
+  <div class="header-contact">
+    <span>📍 Toronto, ON</span>
+    <span>📞 (226) 505-0852</span>
+    <span>🎓 University of Guelph</span>
+  </div>
+</header>
+
+<!-- ===== NAV TABS ===== -->
+<nav>
+  <button class="tab-btn active" onclick="switchTab('about', event)"><span class="tab-icon">👾</span>ABOUT</button>
+  <button class="tab-btn" onclick="switchTab('education', event)"><span class="tab-icon">🎓</span>EDUCATION</button>
+  <button class="tab-btn" onclick="switchTab('experience', event)"><span class="tab-icon">⚔️</span>EXPERIENCE</button>
+  <button class="tab-btn" onclick="switchTab('projects', event)"><span class="tab-icon">🚀</span>PROJECTS</button>
+  <button class="tab-btn" onclick="switchTab('skills', event)"><span class="tab-icon">⚡</span>SKILLS</button>
+</nav>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main>
+
+  <!-- ABOUT -->
+  <div id="about" class="tab-panel active">
+    <div class="pixel-panel">
+      <div class="corner-tl"></div><div class="corner-tr"></div><div class="corner-bl"></div><div class="corner-br"></div>
+      <div class="panel-title"><span class="icon">▶</span> PLAYER PROFILE</div>
+
+      <div class="about-grid">
+        <div>
+          <div class="about-avatar">
+            🧑‍💻
+            <div class="avatar-scanlines"></div>
+          </div>
+
+          <div class="stat-bars">
+            <div class="stat-row">
+              <div class="stat-label">BACKEND</div>
+              <div class="stat-bar"><div class="stat-fill" style="width:92%"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-label">FRONTEND</div>
+              <div class="stat-bar"><div class="stat-fill" style="width:85%;animation-delay:.1s"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-label">AI / ML</div>
+              <div class="stat-bar"><div class="stat-fill" style="width:88%;animation-delay:.2s"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-label">DEVOPS</div>
+              <div class="stat-bar"><div class="stat-fill" style="width:80%;animation-delay:.3s"></div></div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-label">RESEARCH</div>
+              <div class="stat-bar"><div class="stat-fill" style="width:86%;animation-delay:.4s"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <div class="location-badge">📍 TORONTO, ON &nbsp;|&nbsp; LEVEL: GRAD STUDENT + SWE INTERN</div>
+          <p>
+            Hi! I'm Syad — a Computer Engineer turned AI/ML researcher and Software Engineer. Currently pursuing a
+            Master of Applied Science at the University of Guelph while simultaneously working as a Software Engineer
+            Intern at TD Bank.
+          </p>
+          <p>
+            My thesis focuses on <span style="color:var(--accent1)">AI/ML in Human-Robot Collaboration</span> for
+            personalized assistance and adaptive manufacturing. I publish research, mentor students, and build
+            real-world software systems.
+          </p>
+          <p>
+            I've shipped full-stack products, microservices, ML pipelines, and CI/CD systems across companies like
+            <span style="color:var(--accent2)">TD Bank</span>, <span style="color:var(--accent2)">System1</span>,
+            and <span style="color:var(--accent2)">Molex</span>.
+          </p>
+          <p>
+            Outside of work and research: I build side projects, explore computer vision, and enjoy leveling up
+            my stack.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="xp-bar-wrap">
+      <div class="xp-label">TOTAL XP</div>
+      <div class="xp-bar"><div class="xp-fill" style="width:78%"></div></div>
+      <div class="xp-val">7+ YRS EXP</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div id="education" class="tab-panel">
+    <div class="pixel-panel">
+      <div class="corner-tl"></div><div class="corner-tr"></div><div class="corner-bl"></div><div class="corner-br"></div>
+      <div class="panel-title"><span class="icon">🎓</span> EDUCATION LOG</div>
+
+      <div class="edu-card">
+        <div class="edu-degree">Masters of Applied Science in Engineering</div>
+        <div class="edu-school">🏛 University of Guelph &nbsp;|&nbsp; Guelph, ON</div>
+        <div class="edu-date">JAN 2025 — PRESENT</div>
+        <div class="edu-courses">
+          <strong>Thesis:</strong> AI/ML in Human-Robot-Collaboration for Personalized Assistance and Adaptive Manufacturing
+        </div>
+        <div class="course-tags">
+          <span class="course-tag">Machine Learning</span>
+          <span class="course-tag">Computer Vision</span>
+          <span class="course-tag">Digital Manufacturing</span>
+          <span class="course-tag">IoT</span>
+          <span class="course-tag">Data Structures &amp; Algorithms</span>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-degree">Bachelor of Engineering in Computer Engineering</div>
+        <div class="edu-school">🏛 University of Guelph &nbsp;|&nbsp; Guelph, ON</div>
+        <div class="edu-date">SEP 2018 — JUN 2023</div>
+        <div class="edu-courses">
+          Foundation in computer engineering with broad coursework in systems, software, and hardware design.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div id="experience" class="tab-panel">
+    <div class="pixel-panel">
+      <div class="corner-tl"></div><div class="corner-tr"></div><div class="corner-bl"></div><div class="corner-br"></div>
+      <div class="panel-title"><span class="icon">⚔️</span> QUEST LOG</div>
+
+      <div class="exp-timeline">
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Software Engineer Intern</div>
+              <div class="exp-company">🏦 TD Bank &nbsp;|&nbsp; Toronto, ON</div>
+            </div>
+            <div class="exp-date">JAN 2026 — PRESENT</div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Designed &amp; maintained Java Spring Boot microservices and RESTful APIs processing <span class="exp-highlight">100K+ daily requests</span></li>
+            <li>Implemented API integrations reducing manual data handling by <span class="exp-highlight">30%</span></li>
+            <li>Integrated SonarQube for static code analysis &amp; cloud code quality standards</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Graduate Research &amp; Teaching Assistant</div>
+              <div class="exp-company">🎓 University of Guelph &nbsp;|&nbsp; Guelph, ON</div>
+            </div>
+            <div class="exp-date">JAN 2025 — PRESENT</div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Reviewed and synthesized <span class="exp-highlight">50+ papers</span> on AI-based HRC systems for thesis direction</li>
+            <li>Published a journal and conference paper on ensemble ML in multi-object detection</li>
+            <li>Tutored <span class="exp-highlight">120+ students</span> in Large Scale Software Engineering, resolving 100+ queries weekly</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Freelance Software Developer</div>
+              <div class="exp-company">💻 Freelancer &nbsp;|&nbsp; Waterloo, ON</div>
+            </div>
+            <div class="exp-date">JUN 2023 — DEC 2024</div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Deployed end-to-end microgreens ordering platform with React &amp; Node.js enabling <span class="exp-highlight">100+ monthly orders</span></li>
+            <li>Designed dynamic React clothing catalog improving engagement by <span class="exp-highlight">25%</span></li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Full Stack Software Developer Intern</div>
+              <div class="exp-company">🖥 System1 &nbsp;|&nbsp; Guelph, ON</div>
+            </div>
+            <div class="exp-date">MAY 2022 — DEC 2022</div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Built Angular dashboards used daily by <span class="exp-highlight">100+ internal users</span></li>
+            <li>Implemented C# multi-layered caching improving load speed by <span class="exp-highlight">80%</span></li>
+            <li>Automated backend workflows with AWS Lambda, C#, SQL — boosting efficiency by <span class="exp-highlight">25%</span></li>
+            <li>Led Cypress testing reducing release bugs by <span class="exp-highlight">40%</span> and deployments by <span class="exp-highlight">30%</span></li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Software Developer Intern</div>
+              <div class="exp-company">⚙️ Molex &nbsp;|&nbsp; Waterloo, ON</div>
+            </div>
+            <div class="exp-date">JAN 2021 — SEP 2021</div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Co-led provisioning board software in C &amp; Python, reducing hardware onboarding cost by <span class="exp-highlight">$25K/yr</span></li>
+            <li>Built Jenkins CI/CD pipeline reducing deployment time by <span class="exp-highlight">50%</span></li>
+            <li>Participated in Agile methodology, code reviews, and led daily standups</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div id="projects" class="tab-panel">
+    <div class="pixel-panel">
+      <div class="corner-tl"></div><div class="corner-tr"></div><div class="corner-bl"></div><div class="corner-br"></div>
+      <div class="panel-title"><span class="icon">🚀</span> SIDE QUESTS</div>
+
+      <div class="project-card">
+        <div class="project-name">
+          🏀 NBA Shot Success Probability Model
+          <a href="#" class="project-link">[ GITHUB ]</a>
+        </div>
+        <div class="accuracy-badge">✔ 90.8% ACCURACY</div>
+        <div class="project-desc">
+          Developed a YOLOv8-based object detection model with a regression pipeline in Python to dynamically predict
+          NBA player shot success. Analyzed defensive coverage and player skill across 2,000+ labeled frames and videos.
+        </div>
+        <div class="project-tech">
+          <span class="tech-chip">Python</span>
+          <span class="tech-chip">YOLOv8</span>
+          <span class="tech-chip">Computer Vision</span>
+          <span class="tech-chip">Regression</span>
+          <span class="tech-chip">TensorFlow</span>
+          <span class="tech-chip">Scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-name">🌿 Microgreens Ordering Platform</div>
+        <div class="project-desc">
+          End-to-end ordering platform with user dashboards, product listings, and order management. Enabled 100+
+          monthly orders with a modern React frontend and Node.js backend.
+        </div>
+        <div class="project-tech">
+          <span class="tech-chip">React</span>
+          <span class="tech-chip">Node.js</span>
+          <span class="tech-chip">Full Stack</span>
+          <span class="tech-chip">Dashboards</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-name">👗 Dynamic Clothing Catalog</div>
+        <div class="project-desc">
+          React-based clothing catalog featuring multi-angle product previews and dynamic filtering. Improved user
+          engagement by 25% through interactive and responsive design.
+        </div>
+        <div class="project-tech">
+          <span class="tech-chip">React</span>
+          <span class="tech-chip">CSS</span>
+          <span class="tech-chip">UI/UX</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-name">📡 Ensemble ML — Multi-Object Detection</div>
+        <div class="project-desc">
+          Published research applying ensemble machine learning methods to multi-object detection. Contributed novel
+          findings in a journal and conference paper as part of thesis research at the University of Guelph.
+        </div>
+        <div class="project-tech">
+          <span class="tech-chip">ML Research</span>
+          <span class="tech-chip">Object Detection</span>
+          <span class="tech-chip">Python</span>
+          <span class="tech-chip">Published</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div id="skills" class="tab-panel">
+    <div class="pixel-panel">
+      <div class="corner-tl"></div><div class="corner-tr"></div><div class="corner-bl"></div><div class="corner-br"></div>
+      <div class="panel-title"><span class="icon">⚡</span> ABILITY TREE</div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category lang">
+          <div class="skill-cat-title lang">◈ LANGUAGES</div>
+          <div class="skill-pills">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">C#</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">TypeScript</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Scala</span>
+            <span class="skill-pill">C</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">HTML</span>
+            <span class="skill-pill">CSS</span>
+            <span class="skill-pill">CLI</span>
+          </div>
+        </div>
+
+        <div class="skill-category frame">
+          <div class="skill-cat-title frame">◈ FRAMEWORKS</div>
+          <div class="skill-pills">
+            <span class="skill-pill">Spring Boot</span>
+            <span class="skill-pill">Kafka</span>
+            <span class="skill-pill">Angular</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">Node.js</span>
+            <span class="skill-pill">Pandas</span>
+            <span class="skill-pill">Scikit-learn</span>
+            <span class="skill-pill">TensorFlow</span>
+            <span class="skill-pill">YOLO</span>
+            <span class="skill-pill">Flask</span>
+            <span class="skill-pill">.NET</span>
+          </div>
+        </div>
+
+        <div class="skill-category devop">
+          <div class="skill-cat-title devop">◈ DEVOPS</div>
+          <div class="skill-pills">
+            <span class="skill-pill">Docker</span>
+            <span class="skill-pill">Jenkins</span>
+            <span class="skill-pill">Terraform</span>
+            <span class="skill-pill">Splunk</span>
+            <span class="skill-pill">Dynatrace</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">Postman</span>
+            <span class="skill-pill">JIRA</span>
+            <span class="skill-pill">SonarQube</span>
+            <span class="skill-pill">Cypress</span>
+          </div>
+        </div>
+
+        <div class="skill-category cloud">
+          <div class="skill-cat-title cloud">◈ CLOUD</div>
+          <div class="skill-pills">
+            <span class="skill-pill">AWS</span>
+            <span class="skill-pill">Azure</span>
+            <span class="skill-pill">AWS Lambda</span>
+          </div>
+        </div>
+
+        <div class="skill-category db">
+          <div class="skill-cat-title db">◈ DATABASES</div>
+          <div class="skill-pills">
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">MSSQL</span>
+            <span class="skill-pill">Snowflake</span>
+            <span class="skill-pill">MongoDB</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <span>[ SYAD KHWAJAZADA © 2025 ]</span> &nbsp;|&nbsp; INSERT COIN TO CONTINUE <span class="blink">▮</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
